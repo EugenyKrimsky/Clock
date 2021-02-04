@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #161616; }
+  body .time {
+    color: #10a3e7;
+    text-align: center;
+    margin: 100px 0 50px; }
+  body .time-block {
+    display: flex;
+    width: 486px;
+    margin: 0 auto;
+    column-gap: 12px; }
+    body .time-block .big_cell {
+      display: flex;
+      margin: 0 10px;
+      column-gap: 6px; }
+      body .time-block .big_cell .cell {
+        width: 60px;
+        height: 90px;
+        background-color: #090b0c;
+        color: #10a3e7;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        border: 2px solid #10a3e7; }
